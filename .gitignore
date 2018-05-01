@@ -1,0 +1,16 @@
+.DS_Store
+.ruby-version
+.rspec
+/.bundle
+/vendor/bundle
+/doc/api
+/log/*
+/tmp/*
+/db/*.sqlite3
+/db/schema.rb
+/coverage/
+/public/system
+/public/assets
+/public/images
+/spec/tmp/*
+/docker/volumes/*
