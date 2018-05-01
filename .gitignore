@@ -14,3 +14,10 @@
 /public/images
 /spec/tmp/*
 /docker/volumes/*
+!/log/.keep
+!/tmp/.keep
+/storage/*
+/node_modules
+/yarn-error.log
+.byebug_history
+/config/master.key
