@@ -1,0 +1,12 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.6.40
+    environment:
+      - MYSQL_USER=myapp
+      - MYSQL_PASSWORD=myapp
+      - MYSQL_ROOT_PASSWORD=myapp
+    volumes:
+      - ./docker/volumes/mysql/data:/var/lib/mysql:cached
+    ports:
+      - "3306:3306"
