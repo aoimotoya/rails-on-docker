@@ -1,0 +1,14 @@
+.bundle
+.dockerignore
+.git*
+doc/api
+docker/volumes
+log/*
+tmp/*
+vendor/bundle
+db/*.sqlite3
+db/schema.rb
+public/system
+public/assets
+public/images
+spec/tmp/*
